@@ -1,0 +1,122 @@
+*{
+    color: #EBFFFF;
+}
+body{
+    background-color: #FFC0CB;
+}
+
+.container{
+    height: 80vh;
+    max-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: ValentineSoul;
+    src: url(/assets/fonts/ValentineSoul.ttf);
+}
+
+h1{
+    color: #EBFFFF;
+    text-align: center;
+    align-items: center;
+    font-family: ValentineSoul;
+    font-size: 70px;
+    font-weight:lighter;
+    margin: 0;
+}
+h6{
+    margin: 0;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+h4{
+    text-align: center;
+    font-size: 12px;
+    width: 80%;
+    font-weight:300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iconeSom{
+    position: absolute;
+    top: 80%;
+    float: right;   
+    height: 60px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.my-slider-progress {
+    background: #EBFFFF;
+    width: 80%;
+  }
+  
+.my-slider-progress-bar {
+    background: #FFD9DF;
+    height: 2px;
+    transition: width 400ms ease;
+    width: 0;
+}
+
+.splide__arrows{
+    display: none;
+}
+
+.containerImgs *{
+    position: absolute;
+}
+
+.imgTam{
+    width: 100px;
+}
+
+.texto1{
+    left: 5%;
+    top: 13%;
+    width: 170px;
+}
+.imagemEtec1{
+    top: 10%;
+    right: 15%;
+}
+.texto2{
+    top:43%;
+    width: 170px;
+}
+.imagemEtec2{
+    top: 40%;
+    left: 15%;
+}
+.texto3{
+    top: 73%;
+    left: 5%;
+    width: 170px;
+}
+.imagemEtec3{
+    top: 70%;
+    right: 15%;
+}
+
+.containerFinal{
+    text-align: center;
+}
+.containerFinal h1{
+    font-size: 25px;
+}
+.imgsFinal{
+    display: flex;
+    justify-content: center;
+}
+.containerFinal h4{
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
